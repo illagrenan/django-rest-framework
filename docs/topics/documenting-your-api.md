@@ -16,7 +16,7 @@ The built-in API documentation includes:
 
 ### Installation
 
-The `coreapi` library is required as a dependancy for the API docs. Make sure
+The `coreapi` library is required as a dependency for the API docs. Make sure
 to install the latest version. The `pygments` and `markdown` libraries
 are optional but recommended.
 
@@ -42,7 +42,7 @@ For example:
     class UserList(generics.ListAPIView):
         """
         Return a list of all the existing users.
-        """"
+        """
 
 If a view supports multiple methods, you should split your documentation using `method:` style delimiters.
 
